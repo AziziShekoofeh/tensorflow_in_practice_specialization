@@ -10,3 +10,5 @@
 - Optimizer: Will generate a new and improved guess based on the current guess and prediction
 - Convergence: Is the process of getting closer to the correct predictive function
 - Fitting: is the process of training, which tries to fit the set of inputs to targets.
+
+Codes at: https://colab.research.google.com/drive/1GXHm-ICWyFYqRl3F5B-dRjwUZpDKgAk7
