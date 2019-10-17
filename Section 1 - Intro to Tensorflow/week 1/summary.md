@@ -1,4 +1,6 @@
-## Week one summary
+### Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning   [Course Link](https://www.coursera.org/learn/introduction-tensorflow)
+
+### Week one summary
 
 - Difference between traditional programming vs. machine learning/deep learning:
   - traditional programming: input: rules, data -> output: answers  [you need to know the pattern and functionality beforehand.]
