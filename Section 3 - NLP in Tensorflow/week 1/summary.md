@@ -1,4 +1,4 @@
-### Natural Language Processing in TensorFlow  [Course Link] (https://www.coursera.org/learn/natural-language-processing-tensorflow)
+### Natural Language Processing in TensorFlow  [Course Link](https://www.coursera.org/learn/natural-language-processing-tensorflow)
 
 ### Week one summary
 
