@@ -1,4 +1,6 @@
-## Week Four summary
+### Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning   [Course Link](https://www.coursera.org/learn/introduction-tensorflow)
+
+### Week four summary
 
 - The role of ImageGenerator:
   - In many cases you need to generate the labels for images based on the folder structure and the name of the folder.
