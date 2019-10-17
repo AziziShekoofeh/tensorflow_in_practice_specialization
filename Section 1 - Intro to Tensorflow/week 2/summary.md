@@ -1,4 +1,6 @@
-## Week one summary
+### Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning   [Course Link](https://www.coursera.org/learn/introduction-tensorflow)
+
+### Week two summary
 
 - Ready to use datasets such as MNIST and Fashion MNIST has been discussed:
   - Image size: [28, 28] 
