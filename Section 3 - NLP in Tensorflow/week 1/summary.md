@@ -5,7 +5,9 @@
     - The list of sentences is called *Corpus*. 
     - After fiting the tokenizer on your corpus, you can call this tokenizer to generate the list of tokens for any target sentence, inside or outside the corpus. 
     - For this purpose, and to encode the list of sentences, you need to use *texts_to_sequences(list_of_sentences)*.
-    - You can use *oov_token= Token*, to specify a token to use for unknown words,specially, in case of out of corpuse sentences. 
+    - You can use *oov_token= Token*, to specify a token to use for unknown words, specially, in case of out of corpuse sentences. 
+    - You can also pass the *num_words=max_number* to indicate the maximum number of words to be tokenized, and the tokenizer will pick the **most** common max_number words to make the dictionary.
+    
 
 - If you have a number of sequences of different lengths, you need to ensure that they are understood when fed into a neural network, and have the same lenght. For this purpose you can use *pad_sequences* object from the *tf.keras.preprocessing.sequences*.
 
