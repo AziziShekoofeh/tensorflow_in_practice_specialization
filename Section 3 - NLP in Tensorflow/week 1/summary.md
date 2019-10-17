@@ -16,5 +16,15 @@
     - Padding is based on the longest sentence lenght or a pre-fixed maximum lenght which cause truncation of the long sentences.
     - The default behaviour of padding is to add zeros to the begenning of the shorter ones, which is a *pre* param.
     - You can pass padding='post' to pad sequences by adding zeros at the end of short sentencess.
+    
+- Link to lessons from the coursera week 1: 
+
+    - [Lesson 1](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/TensorFlow%20In%20Practice/Course%203%20-%20NLP/Course%203%20-%20Week%201%20-%20Lesson%201.ipynb)
+    - [Lesson 2](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/TensorFlow%20In%20Practice/Course%203%20-%20NLP/Course%203%20-%20Week%201%20-%20Lesson%202.ipynb)
+    - [Lesson 3](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/TensorFlow%20In%20Practice/Course%203%20-%20NLP/Course%203%20-%20Week%201%20-%20Lesson%203.ipynb)
+
 
 Codes at: https://colab.research.google.com/drive/xxxx
+
+
+
