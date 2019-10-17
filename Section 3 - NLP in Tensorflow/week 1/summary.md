@@ -1,4 +1,6 @@
-## Week one summary
+### Natural Language Processing in TensorFlow  [Course Link] (https://www.coursera.org/learn/natural-language-processing-tensorflow)
+
+### Week one summary
 
 - The class object to tokkenize sentences is named "Tokenizer", which can be used, to read all of the words in the list of sentences, then assign a code/token to eahc new word. 
     - For this purpose, you need to use *fit_on_texts(list_of_sentences)* method of this class.
