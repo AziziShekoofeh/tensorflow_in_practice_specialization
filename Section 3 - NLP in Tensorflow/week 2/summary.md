@@ -18,4 +18,12 @@ Some other notes:
     - Subword usage can cause a poor results, because sequence becomes much more important when dealing with subwords, but we're ignoring word positions. 
     - As previousely mentioned, you can also pass the *num_words=max_number* to indicate the maximum number of words to be tokenized, and the tokenizer will pick the **most** common max_number words to make the dictionary.
 
+
+- Link to lessons from the coursera week 2: 
+
+    - [Lesson 1](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/TensorFlow%20In%20Practice/Course%203%20-%20NLP/Course%203%20-%20Week%202%20-%20Lesson%201.ipynb)
+    - [Lesson 2](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/TensorFlow%20In%20Practice/Course%203%20-%20NLP/Course%203%20-%20Week%202%20-%20Lesson%202.ipynb)
+    - [Lesson 3](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/TensorFlow%20In%20Practice/Course%203%20-%20NLP/Course%203%20-%20Week%202%20-%20Lesson%203.ipynb)
+    
+    
 Codes at: https://colab.research.google.com/drive/xxxx
