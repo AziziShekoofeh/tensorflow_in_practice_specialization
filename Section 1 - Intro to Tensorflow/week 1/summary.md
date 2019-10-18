@@ -13,4 +13,10 @@
 - Convergence: Is the process of getting closer to the correct predictive function
 - Fitting: is the process of training, which tries to fit the set of inputs to targets.
 
+- Link to lessons from the coursera week 1: 
+
+    - [Lesson 1](xx)
+    - [Lesson 2](xx)
+    - [Lesson 3](xx)
+    
 Codes at: https://colab.research.google.com/drive/1GXHm-ICWyFYqRl3F5B-dRjwUZpDKgAk7
