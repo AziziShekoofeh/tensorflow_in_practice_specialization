@@ -41,4 +41,11 @@ Dataset Folder
   - ImageGenerator use *rescale* function for normalization of the data. 
 
 
+- Link to lessons from the coursera week 1: 
+
+    - [Lesson 1](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%208%20-%20Lesson%202%20-%20Notebook.ipynb)
+    - [Lesson 2](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%208%20-%20Lesson%203%20-%20Notebook.ipynb)
+    - [Lesson 3](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%208%20-%20Lesson%204%20-%20Notebook.ipynb)
+    
+    
 Codes at: https://colab.research.google.com/drive/1LTYmtAqYaX53Idoa9h9C96PxalhmHfPk
