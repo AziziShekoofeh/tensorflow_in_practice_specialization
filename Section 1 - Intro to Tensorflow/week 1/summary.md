@@ -15,8 +15,7 @@
 
 - Link to lessons from the coursera week 1: 
 
-    - [Lesson 1](xx)
-    - [Lesson 2](xx)
-    - [Lesson 3](xx)
+    - [First Lesson](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%202%20-%20Lesson%202%20-%20Notebook.ipynb)
+    - [Optional Lesson ](https://rwoubqswsbrqgsewfxrtkb.coursera-apps.org/notebooks/week1/Exercise_1_House_Prices_Question.ipynb)
     
 Codes at: https://colab.research.google.com/drive/1GXHm-ICWyFYqRl3F5B-dRjwUZpDKgAk7
