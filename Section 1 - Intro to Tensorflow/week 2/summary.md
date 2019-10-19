@@ -32,7 +32,7 @@ print(history.epoch, history.history['accuracy'][-1])
 
 - Link to lessons from the coursera week 1: 
 
-    - [First Lesson](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%204%20-%20Lesson%202%20-%20Notebook.ipynb)
+    - [Lesson 1](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%204%20-%20Lesson%202%20-%20Notebook.ipynb)
     - [Lesson 2](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%204%20-%20Lesson%204%20-%20Notebook.ipynb)
     - [Optional Lesson ](https://rwoubqswsbrqgsewfxrtkb.coursera-apps.org/notebooks/week2/Exercise2-Question.ipynb)
     
