@@ -30,4 +30,10 @@ history = model.fit(x_train, y_train, epochs=10, callbacks=[callbacks])
 print(history.epoch, history.history['accuracy'][-1])
 ```
 
+- Link to lessons from the coursera week 1: 
+
+    - [First Lesson](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%204%20-%20Lesson%202%20-%20Notebook.ipynb)
+    - [Lesson 2](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/Course%201%20-%20Part%204%20-%20Lesson%204%20-%20Notebook.ipynb)
+    - [Optional Lesson ](https://rwoubqswsbrqgsewfxrtkb.coursera-apps.org/notebooks/week2/Exercise2-Question.ipynb)
+    
 Codes and more info at: https://colab.research.google.com/drive/1Vqw_WguUMt_BhMOi3l3cmcH4QRCN2Z7x
