@@ -35,7 +35,7 @@ D2=K
 
 ```
 
-- Last words: Design of the CNNs is important, and poor design could even degrade the performance in comarison to a plain DNN. 
+- Design of the CNNs is important, and poor design could even degrade the performance in comarison to a plain DNN. 
 
 - Link to lessons from the coursera week 1: 
 
