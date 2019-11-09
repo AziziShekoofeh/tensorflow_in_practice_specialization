@@ -14,4 +14,6 @@
     
 - Sequence bias is when the order of things can impact the selection of things. To avoid sequence bias we need to shuffle it. [Q: why? sometimes bias and orders are important!]
 
+- 
+
 Codes at: https://colab.research.google.com/drive/xxxx
