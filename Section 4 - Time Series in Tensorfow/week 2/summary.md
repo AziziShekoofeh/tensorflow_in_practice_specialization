@@ -34,4 +34,14 @@ x_valid = series[split_time:]
 
 - To change the learning rate of an optimizer on the fly you can use the callback function, ue LearningRateScheduler in the callback name space, and assign that to the callback. 
 
+ Link to course notebooks:
+ 
+ - [Lesson 1](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/TensorFlow%20In%20Practice/Course%204%20-%20S%2BP/S%2BP%20Week%202%20Lesson%201.ipynb#scrollTo=Lrv_ghSt1lgQ)
+ 
+ - [Lesson 2](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/TensorFlow%20In%20Practice/Course%204%20-%20S%2BP/S%2BP%20Week%202%20Lesson%202.ipynb#scrollTo=ou-WmE2AXu6B)
+ 
+  - [Lesson 3](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/TensorFlow%20In%20Practice/Course%204%20-%20S%2BP/S%2BP%20Week%202%20Lesson%203.ipynb#scrollTo=efhco2rYyIFF)
+
+
+
 Codes at: https://colab.research.google.com/drive/xxxx
