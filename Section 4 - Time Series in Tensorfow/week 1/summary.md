@@ -69,9 +69,9 @@ Seasonality + Trend + Autocorrelation + Noise
 	 
 - In the moving average, forecast is giving the mean of the last few values in the target window as the current prediction. If window_size=1, then this is equivalent to naive forecast.
 
- - Differencing: Removing of seasonality and trend out of the time series. So instead of studying the time series itself, we study the difference between the value at time T and the value at an earlier period. This period is the lenght of your season.
+ - Differencing: The moving average does not anticipate trend or seasonality, so to use moving average we need to remove them. Removing of seasonality and trend out of the time series is called differencing. So instead of studying the time series itself, we study the difference between the value at time T and the value at an earlier period. This period is the lenght of your season.
  
- - We can smooth the prediction and noise by removig the moving average of the noise in the past and present values. [needs re-state!]
+ - After differencing, we can get the prediction by calculation of the moving average, them adding back the differenced values. In this case, because the past differenced values are noisy, we can smooth the prediction and noise by removing the moving average of the noise in the past and present values. 
  
  Link to course notebooks:
  
@@ -79,4 +79,7 @@ Seasonality + Trend + Autocorrelation + Noise
  
  - [Lesson 2](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/TensorFlow%20In%20Practice/Course%204%20-%20S%2BP/S%2BP%20Week%201%20-%20Lesson%203%20-%20Notebook.ipynb)
  
-Codes at: https://colab.research.google.com/drive/xxxx
+Codes at: 
+
+- [Part 1](https://colab.research.google.com/drive/1WDbKHeRsn1dmWntHRiZ6_bFb-OLw1xhA)
+- [Part 2](https://colab.research.google.com/drive/1mg4SJ0XIq9Hk1v3v6tL9kKxaClWJSpoB)
