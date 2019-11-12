@@ -67,7 +67,8 @@ Seasonality + Trend + Autocorrelation + Noise
 	- Naive forecasting: Assume that the previous value will be the current step value.
 	 - Moving Average: A common and very simple forecasting method is to calculate a moving average. 
 	 
-	 
+- In the moving average, forecast is giving the mean of the last few values in the target window as the current prediction. If window_size=1, then this is equivalent to naive forecast.
+
  - Differencing: Removing of seasonality and trend out of the time series. So instead of studying the time series itself, we study the difference between the value at time T and the value at an earlier period. This period is the lenght of your season.
  
  - We can smooth the prediction and noise by removig the moving average of the noise in the past and present values. [needs re-state!]
