@@ -3,9 +3,43 @@
 ### Week 3 Summary:  Recurrent Neural Networks for Time Series
 
 
-- 
+- RNNs are contain recurrent layers, they are designed to analysed text, time-series or any other series and sequences.
+  - Input shape of a layer of RNN is 3 dimensional : [batch_size, #time-steps, #data-dimensions]
+  - Vinalla RNNs have a memory cells and could generate hidden states to pass to next step and also an output at the current time-step.
+  - State for the step-0 is 0 or a random number. 
+  - Output shape at *each time step* is : [batch size, **#units**, #data-dminsion]
+  - Hidden state shape is also have similar shape to the output.
+- Seqence-to-Vector RNN will ignore all of the output expect the last time step one. This is the default behaviour of the TF. If you want to connect multiple layers of RNN you should set the *return_sequence* flag as True to pass all of the outputs to the next layer. 
 
-- 
+
+- Defining a Vanillar/Simple RNN in TF:.
+  - *None* means RNN should be able to handle sequence of different lenght.
+  - If we set *return_sequences* True for the second layer RNN will return all of the time steps output.
+  - TF/Keras will handle this by repeating Dense layer structure for all of the layers, hoever, sometimes it will cause some error and dimensionality missmatch.
+
+```
+model = tf.keras.models.Sequential([
+    tf.keras.layers.SimpleRNN(window_size, input_shape=[None, 1], return_sequences=Ture), 
+    tf.keras.layers.SimpleRNN(window_size), 
+    tf.keras.layers.Dense(1)
+])
+```
+
+- Lambda Layer: works simillar to lambda function in python, and expand the functionality of TensorFlow's kares. For example:
+  - To increase dimentionally of the data as RNNs input.
+  - Handling Hypernolic Tanh data range output [1, -1] by multiplying it by 100.0 which makes learning process easier.
+  
+```
+model = tf.keras.models.Sequential([
+    tf.keras.layers.Lambda(lambda x: tf.expand_dims(x, axis=-1), input_shape=[None]),
+    tf.keras.layers.SimpleRNN(window_size, return_sequences=True), 
+    tf.keras.layers.SimpleRNN(window_size), 
+    tf.keras.layers.Lambda(lambda x: x* 100.0),
+    tf.keras.layers.Dense(1)
+])
+```
+
+- Huber Loss: ([Reed More](https://en.wikipedia.org/wiki/Huber_loss))
 
  Link to course notebooks:
  
@@ -17,4 +51,8 @@
 
 
 
-Codes at: https://colab.research.google.com/drive/xxxx
+Codes at: 
+
+- [Part 1](https://colab.research.google.com/xxxxxxxxx)
+- [Part 2](https://colab.research.google.com/xxxxxxxxxxxx)
+- [Excersise Answer](https://colab.research.google.com/xxxxxxxx)
