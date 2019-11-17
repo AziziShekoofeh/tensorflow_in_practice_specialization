@@ -34,6 +34,14 @@ x_valid = series[split_time:]
 
 - To change the learning rate of an optimizer on the fly you can use the callback function, ue LearningRateScheduler in the callback name space, and assign that to the callback. 
 
+```
+lr_schedule = tf.keras.callbacks.LearningRateScheduler(
+    lambda epoch: init_lr * 10**(epoch / 20))
+optimizer=tf.keras.optimizers.SGD(lr=init_lr, momentum=0.9)
+model.compile(loss="mse", optimizer=optimizer)
+history = model.fit(dataset, epochs=no_epochs, verbose=2, callbacks=[lr_schedule])
+```
+
  Link to course notebooks:
  
  - [Lesson 1](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/TensorFlow%20In%20Practice/Course%204%20-%20S%2BP/S%2BP%20Week%202%20Lesson%201.ipynb#scrollTo=Lrv_ghSt1lgQ)
