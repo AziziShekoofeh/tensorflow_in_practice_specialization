@@ -25,7 +25,7 @@ model = tf.keras.models.Sequential([
 ])
 ```
 
-- Lambda Layer: works simillar to lambda function in python, and expand the functionality of TensorFlow's kares. For example:
+- Lambda Layer: works simillar to lambda function in python, and expand the functionality of TensorFlow's kares. It allows you to execute arbitrary code while training. For example:
   - To increase dimentionally of the data as RNNs input.
   - Handling Hypernolic Tanh data range output [1, -1] by multiplying it by 100.0 which makes learning process easier.
   
@@ -34,12 +34,28 @@ model = tf.keras.models.Sequential([
     tf.keras.layers.Lambda(lambda x: tf.expand_dims(x, axis=-1), input_shape=[None]),
     tf.keras.layers.SimpleRNN(window_size, return_sequences=True), 
     tf.keras.layers.SimpleRNN(window_size), 
-    tf.keras.layers.Lambda(lambda x: x* 100.0),
-    tf.keras.layers.Dense(1)
+    tf.keras.layers.Dense(1),
+    tf.keras.layers.Lambda(lambda x: x* 100.0)
 ])
 ```
 
-- Huber Loss: ([Reed More](https://en.wikipedia.org/wiki/Huber_loss))
+- Huber Loss: is a loss function for robust regression and it is less sensitive to the noise.([Reed More](https://en.wikipedia.org/wiki/Huber_loss))
+
+- LSTMs: to deal with the vanishing of the information in long sequences, LSTM uses cell states in addition ot the hidden state to improve the performance of sequence analysis. So, the data from very early steps can have better impact on far away steps and overall network. Cell states can also be bidirectional so the previous cells and steps will effect the earlier steps. You cna define a LSTM as follow:
+
+```
+model = tf.keras.models.Sequential([
+  tf.keras.layers.Lambda(lambda x: tf.expand_dims(x, axis=-1),
+                      input_shape=[None]),
+    tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(10, return_sequences=True)),
+  tf.keras.layers.Bidirectional(tf.keras.layers.LSTM(10)),
+  tf.keras.layers.Dense(1),
+  tf.keras.layers.Lambda(lambda x: x * 100.0)
+])
+```
+
+- Note: use *tf.keras.backend.clear_session()* to clear internal variables and model parameters from previous experiments. 
+
 
  Link to course notebooks:
  
