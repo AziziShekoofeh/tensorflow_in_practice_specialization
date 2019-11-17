@@ -44,4 +44,6 @@ x_valid = series[split_time:]
 
 
 
-Codes at: https://colab.research.google.com/drive/xxxx
+Codes at: 
+- [Part 1](https://colab.research.google.com/drive/1EEiPp1XrUtLvCG0408I0bVZjJ3VrFefL)
+- [Part 2](https://colab.research.google.com/drive/1fWv5Y6Mo23gZ_ZI6zNJxx47t4vdmOAms)
