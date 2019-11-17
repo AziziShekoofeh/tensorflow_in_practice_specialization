@@ -69,6 +69,6 @@ model = tf.keras.models.Sequential([
 
 Codes at: 
 
-- [Part 1](https://colab.research.google.com/xxxxxxxxx)
-- [Part 2](https://colab.research.google.com/xxxxxxxxxxxx)
-- [Excersise Answer](https://colab.research.google.com/xxxxxxxx)
+- [Part 1](https://colab.research.google.com/drive/1RaCsJlHlvHbI5auZPnGDnvl9FHXZi-od)
+- [Part 2](https://colab.research.google.com/drive/1tbYmFvbcDs0Hj9z2Ei3BkCBSE6bkn7Dg)
+- [Excersise Answer](https://colab.research.google.com/drive/1-QdNEZ0ZnsBFKfUfc6mATBuLgcs2SLcy)
