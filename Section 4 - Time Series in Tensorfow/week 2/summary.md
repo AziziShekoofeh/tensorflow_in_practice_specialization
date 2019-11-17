@@ -41,9 +41,12 @@ x_valid = series[split_time:]
  - [Lesson 2](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/TensorFlow%20In%20Practice/Course%204%20-%20S%2BP/S%2BP%20Week%202%20Lesson%202.ipynb#scrollTo=ou-WmE2AXu6B)
  
   - [Lesson 3](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/TensorFlow%20In%20Practice/Course%204%20-%20S%2BP/S%2BP%20Week%202%20Lesson%203.ipynb#scrollTo=efhco2rYyIFF)
+  
+  - [Exercise](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/TensorFlow%20In%20Practice/Course%204%20-%20S%2BP/S%2BP_Week_2_Exercise_Question.ipynb)
 
 
 
 Codes at: 
 - [Part 1](https://colab.research.google.com/drive/1EEiPp1XrUtLvCG0408I0bVZjJ3VrFefL)
 - [Part 2](https://colab.research.google.com/drive/1fWv5Y6Mo23gZ_ZI6zNJxx47t4vdmOAms)
+- [Excersise Answer](https://colab.research.google.com/drive/1_h4I_beRt5tQBdgnISJW9PIs7uKpEGqS)
