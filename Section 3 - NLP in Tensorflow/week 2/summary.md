@@ -14,7 +14,7 @@
     - Embedding dimension: indication the number of dimensions for the vector representing the word encoding.
     - You can perform embedding using *tf.keras.layers.Embedding* layer.
 
-Some other notes:
+- Some other notes:
     - Subword usage can cause a poor results, because sequence becomes much more important when dealing with subwords, but we're ignoring word positions. 
     - As previousely mentioned, you can also pass the *num_words=max_number* to indicate the maximum number of words to be tokenized, and the tokenizer will pick the **most** common max_number words to make the dictionary.
 
