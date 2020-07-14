@@ -27,6 +27,7 @@
     - [Lesson 2](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/TensorFlow%20In%20Practice/Course%203%20-%20NLP/Course%203%20-%20Week%201%20-%20Lesson%202.ipynb)
     - [Lesson 3](https://colab.research.google.com/github/lmoroney/dlaicourse/blob/master/TensorFlow%20In%20Practice/Course%203%20-%20NLP/Course%203%20-%20Week%201%20-%20Lesson%203.ipynb)
 
+- Other useful summaries of NLP part and all of 4 weeks [Here](https://towardsdatascience.com/natural-language-processing-with-tensorflow-e0a701ef5cef). 
 
 Codes at: https://colab.research.google.com/drive/xxxx
 
